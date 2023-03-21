@@ -4,7 +4,7 @@ Client-Server architecture refers to a system that hosts and delivers resources 
 
 The machine making the request is the client while the machine delivering the request is the server.
 
-![CLIENT_SERVER](./client_server.PNG)
+![CLIENT_SERVER](./images/client_server.PNG)
 
 For this project we wil be using two EC2 instances. One as a server while the other as a client.
 
@@ -20,7 +20,7 @@ For this project we wil be using two EC2 instances. One as a server while the ot
 
     `sudo systemctl status mysql`
 
-![mysql status](./mysl%20status.PNG)
+![mysql status](./images/mysl%20status.PNG)
 
 - Next we apply a root password for our mysql by using the below code and following the prompt.
 
@@ -40,7 +40,7 @@ For this project we wil be using two EC2 instances. One as a server while the ot
 
 - we edit the bind address to change the IP as shown below, replacing ‘127.0.0.1’ to ‘0.0.0.0’.
 
-![bind address](./bind%20address.PNG)
+![bind address](./images/bind%20address.PNG)
 
 - restart the mysql server
 
@@ -67,7 +67,7 @@ For this project we wil be using two EC2 instances. One as a server while the ot
 
 - This will prompt for a password.
 
-![client connect](./client%20connect.PNG)
+![client connect](./images/client%20connect.PNG)
 
 - We can run commands here such as show databases and some query.
 
